@@ -1,0 +1,27 @@
+﻿body.modal-open {
+    width: 100% !important;
+    padding-right: 0 !important;
+    overflow-y: scroll !important;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff;
+    /* ReSharper disable once CssBrowserCompatibility */
+    color: rgba(255, 255, 255, .85);
+    font-size: 1rem;
+    padding-top: .45rem
+}
+
+.jumbotron {
+    background: url("../img/jumbo-bg.jpg");
+    -ms-background-size: cover;
+    background-size: cover    
+}
+
+.btn,
+.active {
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s
+}
